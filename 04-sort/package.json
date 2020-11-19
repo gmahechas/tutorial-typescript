@@ -1,0 +1,16 @@
+{
+  "name": "04-sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "gmahechas",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:prod": "node build/index.js",
+    "start:dev": "ts-node-dev ./src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  }
+}
